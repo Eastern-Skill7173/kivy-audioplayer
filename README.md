@@ -119,12 +119,12 @@ or maybe you would like to contribute to the project
 6. Clone the repository (copy the source code):
 
     ```
-    git clone https://github.com/Eastern-Skill7173/os-launchers.git
+    git clone https://github.com/Eastern-Skill7173/kivy-audioplayer.git
     ```
 
     _TIP:_ you can add a `--depth 1` to the end of the command to only copy the latest version of each file if you are planing on just using the project, like so:
     ```
-    git clone https://github.com/Eastern-Skill7173/os-launchers.git --depth 1
+    git clone https://github.com/Eastern-Skill7173/kivy-audioplayer.git --depth 1
     ```
 
 After cloning the repo, switch to the directory, and run the following command through your terminal:
@@ -136,6 +136,7 @@ After cloning the repo, switch to the directory, and run the following command t
 ## Built With
 
 * [Python](https://www.python.org/) - The core programming language
+* [Kivy](https://www.kivy.org/) - The UI suite the project is using and is aimed for
 
 ## Contributing
 

@@ -1,71 +1,69 @@
-# Introduction
+# Contributing
 
-### Write something nice here!
 
->First off, thank you for considering contributing to Active Admin. It's people like you that make Active Admin such a great tool.
+Before anything, I'd like to thank you for contributing to this project. No matter how small or big of a contribution you make, you will have an effect on the growth of this project. Open-source only works because of people like you.
 
-[source: [Active Admin](https://github.com/activeadmin/activeadmin/blob/master/CONTRIBUTING.md)] **Need more inspiration?** [1] [Read The Docs](http://read-the-docs.readthedocs.org/en/latest/contribute.html) [2] [Mustache.js](https://github.com/janl/mustache.js/#contributing)
+### What to do
 
-### Tell them why they should read your guidelines.
+Before getting your hands dirty, it is important to understand what exactly you want to contribute to.
 
->Following these guidelines helps to communicate that you respect the time of the developers managing and developing this open source project. In return, they should reciprocate that respect in addressing your issue, assessing changes, and helping you finalize your pull requests.
+If you have experienced a bug, incompatibilities, installation issues or documentation inaccuracies, you are more than welcome to [create a new issue](https://github.com/Eastern-Skill7173/kivy-audioplayer/issues/new), right here on github.com!
 
-[source: [Hoodie](https://github.com/hoodiehq/hoodie/blob/master/CONTRIBUTING.md)]
+It doesn't just have to be fixing problems! Even if you don't have an issue, submitting your ideas and ways to improve the project is massively appreciated. The view and perspective you bring to as a user is unmatched!
 
-### Explain what kinds of contributions you are looking for.
+### What NOT to do
 
-Keep an open mind! Improving documentation, bug triaging, or writing tutorials are all examples of helpful contributions that mean less work for you.
+If you are having a question about the usage or if something is unclear, you will get much better and faster results reaching out to sites such as [Stack Overflow](https://stackoverflow.com/) or communities and subreddits like [r/learnpython](https://www.reddit.com/r/learnpython/) or [r/learnprogramming](https://www.reddit.com/r/learnprogramming/)
 
-> Elasticsearch is an open source project and we love to receive contributions from our community — you! There are many ways to contribute, from writing tutorials or blog posts, improving the documentation, submitting bug reports and feature requests or writing code which can be incorporated into Elasticsearch itself.
+Following these guidelines ensures the fastest possible outreach and the best solution for all. It also indicates that you respect the time of the development team, so we can get back to you as soon as possible!
 
-[source: [Elasticsearch](https://github.com/elastic/elasticsearch/blob/master/CONTRIBUTING.md)] **Need more inspiration?** [1] [Devise](https://github.com/plataformatec/devise/wiki/Contributing) [2] [Geocoder](https://github.com/alexreisner/geocoder#known-issues) (“known issues”)
+### Taking contributions to the next level
 
-### Explain contributions you are NOT looking for (if any).
+If you feel like the issue is something that you can fix yourself, you can clone, create a new branch and start working on it! This will significantly improve the speed of the contribution!
 
-Again, defining this up front means less work for you. If someone ignores your guide and submits something you don’t want, you can simply close it and point to your policy.
+In order to keep up with convention, try naming your branch something like this:
 
-> Please, don't use the issue tracker for [support questions]. Check whether the #pocoo IRC channel on Freenode can help with your issue. If your problem is not strictly Werkzeug or Flask specific, #python is generally more active. Stack Overflow is also worth considering.
+```
+git clone 123-android-player-issue
+```
 
-[source: [Flask](https://github.com/pallets/flask/blob/master/CONTRIBUTING.rst)] **Need more inspiration?** [1] [cucumber-ruby](https://github.com/cucumber/cucumber-ruby/blob/master/CONTRIBUTING.md#about-to-create-a-new-github-issue) [2] [Read the Docs](http://read-the-docs.readthedocs.org/en/latest/open-source-philosophy.html#unsupported)
+Where the beginning number is the supposed issue number on github you are working on, and the rest describes the problem mentioned within the issue.
+
+So all the steps boil down to:
+
+```
+# To cloned the repo do:
+git clone https://github.com/Eastern-Skill7173/kivy-audioplayer
+# To change into the project directory:
+cd kivy-audioplayer/
+# To create and switch to a new branch:
+git checkout -b 123-android-player-issue
+```
+
 
 # Ground Rules
-### Set expectations for behavior (yours, and theirs).
-This includes not just how to communicate with others (being respectful, considerate, etc) but also technical responsibilities (importance of testing, project dependencies, etc). Mention and link to your code of conduct, if you have one.
 
-> Responsibilities
-> * Ensure cross-platform compatibility for every change that's accepted. Windows, Mac, Debian & Ubuntu Linux.
-> * Ensure that code that goes into core meets all requirements in this checklist: https://gist.github.com/audreyr/4feef90445b9680475f2
-> * Create issues for any major changes and enhancements that you wish to make. Discuss things transparently and get community feedback.
-> * Don't add any classes to the codebase unless absolutely needed. Err on the side of using functions.
-> * Keep feature versions as small as possible, preferably one new feature per version.
-> * Be welcoming to newcomers and encourage diverse new contributors from all backgrounds. See the [Python Community Code of Conduct](https://www.python.org/psf/codeofconduct/).
+### Be respectful and embracing
 
-[source: [cookiecutter](https://github.com/audreyr/cookiecutter/blob/master/CONTRIBUTING.rst)] **Need more inspiration?** [1] [Celery](https://github.com/celery/celery/blob/master/CONTRIBUTING.rst#community-code-of-conduct) [2] [geocoder](https://github.com/alexreisner/geocoder#contributing)
+Everyone who is present in the contribution scene must agree to our [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md)
 
-# Your First Contribution
-Help people who are new to your project understand where they can be most helpful. This is also a good time to let people know if you follow a label convention for flagging beginner issues.
+Remember to keep an open mind and be welcoming of everyone. Be constructive but not hurtful. Embrace newcomers and be sure to guide them.
 
-> Unsure where to begin contributing to Atom? You can start by looking through these beginner and help-wanted issues:
-> Beginner issues - issues which should only require a few lines of code, and a test or two.
-> Help wanted issues - issues which should be a bit more involved than beginner issues.
-> Both issue lists are sorted by total number of comments. While not perfect, number of comments is a reasonable proxy for impact a given change will have.
+### Details are everything but so is modesty
 
-[source: [Atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#your-first-code-contribution)] **Need more inspiration?** [1] [Read the Docs](http://docs.readthedocs.org/en/latest/contribute.html#contributing-to-development) [2] [Django](https://docs.djangoproject.com/en/dev/internals/contributing/new-contributors/#first-steps) (scroll down to "Guidelines" as well)
+When creating an issue, make sure to provide **RELEVANT** details as much as possible.
 
-### Bonus points: Add a link to a resource for people who have never contributed to open source before.
-Here are a couple of friendly tutorials you can include: http://makeapullrequest.com/ and http://www.firsttimersonly.com/
+Details help narrow down where, why and how the issue has occurred.
 
-> Working on your first Pull Request? You can learn how from this *free* series, [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github).
+Versions of python, kivy and the project itself are of great importance, so is the operating system the code is being run on. Providing the error code and location (the line in which the error occurred) is also mandatory.
 
-[source: [React](https://github.com/facebook/react/blob/master/CONTRIBUTING.md#pull-requests)]  
+If you are providing any other details, make sure that they truly have an effect on the problem at hand.
 
-As a side note, it helps to use newcomer-friendly language throughout the rest of your document. Here are a couple of examples from [Active Admin](https://github.com/activeadmin/activeadmin/blob/master/CONTRIBUTING.md):
+Giving a [minimal reproducible example (MRE)](https://stackoverflow.com/help/minimal-reproducible-example) where the issue is repeated will highlight the issue and bring it to the center of attention paving the way for the community and developers to jump straight to action!
 
->At this point, you're ready to make your changes! Feel free to ask for help; everyone is a beginner at first :smile_cat:
->
->If a maintainer asks you to "rebase" your PR, they're saying that a lot of code has changed, and that you need to update your branch so it's easier to merge.
 
-# Getting started
+# NOT WRITTEN BEYOND THIS POINT
+
 ### Give them a quick walkthrough of how to submit a contribution.
 How you write this is up to you, but some things you may want to include:
 
