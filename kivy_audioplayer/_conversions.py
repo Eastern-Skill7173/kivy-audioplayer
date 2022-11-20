@@ -54,7 +54,7 @@ class _TypeHintConversion:
         Returns
         -------
         None
-        
+
         Raises
         ------
         TypeError

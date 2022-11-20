@@ -160,4 +160,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 * Special thanks to the python and kivy team
 * Anyone who has shared or committed to the project
-* Also, [_Billie Thompson_](https://github.com/PurpleBooth) for this README template
+* Shoutout to [Mathieu Virbel](https://github.com/tito) for android player snippet
+* Also, [Billie Thompson](https://github.com/PurpleBooth) for this README template
