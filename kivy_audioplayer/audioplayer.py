@@ -24,7 +24,7 @@ Soon to be integrated:
 
 import os
 from typing import Iterable
-from kivy_audioplayer.type_aliases import Number, SoundType
+from kivy_audioplayer.type_hints import Number, SoundType
 from kivy_audioplayer._conversions import (
     NumberConversion,
     SoundTypeConversion,
@@ -48,14 +48,14 @@ if platform in os.getenv("NATIVE_AUDIO_PLAYER", '').split(','):
         from kivy_audioplayer._os_integration.\
             _android_player import AndroidSoundPlayer
         SoundLoader.register(AndroidSoundPlayer)
-    elif platform == "linux":
+    """elif platform == "linux":
         from kivy_audioplayer._os_integration.\
             _linux_player import LinuxSoundPlayer
         SoundLoader.register(LinuxSoundPlayer)
     elif platform == "win":
         from kivy_audioplayer._os_integration.\
             _windows_player import WindowsSoundPlayer
-        SoundLoader.register(WindowsSoundPlayer)
+        SoundLoader.register(WindowsSoundPlayer)"""
 
 
 class AudioPlayer:
